@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --cpp
+-I.\RTE\_STM32F051K6T6
+-IC:\Users\abdullah.piroglu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+-IC:\Users\abdullah.piroglu\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F051x8 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F051x8 -DUSE_HAL_DRIVER -DSTM32F051x8
+-o stm32f051k6t6\stm32f0xx_hal_msp.o --omf_browse stm32f051k6t6\stm32f0xx_hal_msp.crf --depend stm32f051k6t6\stm32f0xx_hal_msp.d --feedback "STM32F051K6T6\STM32F051K6T6.fed" "../Src/stm32f0xx_hal_msp.c"
