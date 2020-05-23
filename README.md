@@ -1,19 +1,14 @@
 # STM32withCPP
 
-  @file  			: API_LED.cpp
-  
-  @author			: huzeyfe piroglu
-  
-  @date  			: 23.05.2020
-  
-  @Keil  			: ARM MDK V5.30
-  
-  @MCU   			: STM32F051K6T6 
-  
-  @CubeMX			: STM32CubeMX V5.3.0
+  @file  			: API_LED.cpp  
+  @author			: huzeyfe piroglu  
+  @date  			: 23.05.2020  
+  @Keil  			: ARM MDK V5.30  
+  @MCU   			: STM32F051K6T6   
+  @CubeMX			: STM32CubeMX V5.3.0  
   @mail   			: a.huzeyfepiroglu@gmail.com
   @github 			: https://github.com/huzeyfepiroglu
- 
+	 
   @Description :
  
   In embedded systems, the use of the C programming language is often greater.
